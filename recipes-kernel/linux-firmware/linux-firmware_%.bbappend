@@ -9,9 +9,15 @@ SRC_URI[brcm_lwb.sha256sum] = "5a607bc3ca8cea619eae03efa2def406b813603751ffaf3c5
 SRC_URI[brcm_lwb5.sha256sum] = "221f1a552eb8d273fd0e169da873eb8a9610edc836ae2b026ebd4e7f82f4ffa2"
 
 # TI WiFi FW 8.9.0.0.88 and BT FW 4.7
-SRCREV_tiwlan = "bda5304cc86e9c4029f8101394d2a8b39c640f53"
+#SRCREV_tiwlan = "bda5304cc86e9c4029f8101394d2a8b39c640f53"
+#BRANCH_tiwlan = "master"
+#SRCREV_tibt = "3aa1d75f3c2ae77f6e4d36194e3d281b899ab149"
+#BRANCH_tibt = "master"
+
+# TI WiFi FW 8.9.0.0.79
+SRCREV_tiwlan = "d153edae2a75393937da43159b7e6251c2cd01b6"
 BRANCH_tiwlan = "master"
-SRCREV_tibt = "3aa1d75f3c2ae77f6e4d36194e3d281b899ab149"
+SRCREV_tibt = "31a43dc1248a6c19bb886006f8c167e2fd21cb78"
 BRANCH_tibt = "master"
 
 SRC_URI_append = " \
